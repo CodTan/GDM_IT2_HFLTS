@@ -143,7 +143,7 @@ for i = 1:p % iterate through decision makers
             X = [X;D_by_C_by_A_env{i,1}{j,k}];
         end
 %         [Y,~,~,~,~] = IT2_OWA(X,criteria_weights);
-        [Y,~,~,~,~] = LWA(X,criteria_we ights);
+        [Y,~,~,~,~] = LWA(X,criteria_weights);
         A_agg{end+1} = Y;
         X = [];
     end
